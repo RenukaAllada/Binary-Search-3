@@ -20,7 +20,7 @@ class Solution{
         }
     }
 
-    //TC: 0(log N)
+    //TC: 0(log N-k)+0(k)
 //SC: 0(1)
     class Solution {
         public List<Integer> findClosestElements(int[] arr, int k, int x) {
@@ -46,7 +46,7 @@ class Solution{
             return result;
         }
     }
-    
+
     /*****************problem-2*********************/
 
     //TC: 0(N)
